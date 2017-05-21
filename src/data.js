@@ -909,7 +909,7 @@ const data = {
       compatibilty: ['Biomorph']
     },
     {
-      name: '',
+      name: 'Enhanced Pheromones',
       type: ['Personal Augmentations', 'Bioware', 'Physical Augmentations'],
       desc: '',
       cost: 'Low',
@@ -917,52 +917,39 @@ const data = {
     },
     {
       name: '',
-      type: ['Personal Augmentations', 'Bioware', 'Physical Augmentations'],
+      type: ['Weapons', 'Melee Weapons', 'Blades'],
       desc: '',
       cost: 'Low',
-      compatibilty: ['Biomorph']
     },
     {
       name: '',
-      type: ['Personal Augmentations', 'Bioware', 'Physical Augmentations'],
+      type: ['Weapons', 'Melee Weapons', 'Clubs'],
       desc: '',
       cost: 'Low',
-      compatibilty: ['Biomorph']
     },
     {
       name: '',
-      type: ['Personal Augmentations', 'Bioware', 'Physical Augmentations'],
+      type: ['Weapons', 'Melee Weapons', 'Unarmed'],
       desc: '',
       cost: 'Low',
-      compatibilty: ['Biomorph']
     },
     {
       name: '',
-      type: ['Personal Augmentations', 'Bioware', 'Physical Augmentations'],
+      type: ['Weapons', 'Kinetic Weapons', 'Firearms'],
       desc: '',
       cost: 'Low',
-      compatibilty: ['Biomorph']
     },
     {
       name: '',
-      type: ['Personal Augmentations', 'Bioware', 'Physical Augmentations'],
+      type: ['Weapons', 'Kinetic Weapons', 'Railguns'],
       desc: '',
       cost: 'Low',
-      compatibilty: ['Biomorph']
     },
     {
       name: '',
-      type: ['Personal Augmentations', 'Bioware', 'Physical Augmentations'],
+      type: ['Weapons', 'Kinetic Weapons', 'Beam Weapons'],
       desc: '',
       cost: 'Low',
-      compatibilty: ['Biomorph']
-    },
-    {
-      name: '',
-      type: ['Personal Augmentations', 'Bioware', 'Physical Augmentations'],
-      desc: '',
-      cost: 'Low',
-      compatibilty: ['Biomorph']
     },
   ]
 };

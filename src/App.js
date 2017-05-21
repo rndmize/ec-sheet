@@ -231,6 +231,8 @@ class App extends Component {
           <div className="row">
             <div className="cell">
               <button onClick={e => {localStorage.setItem(this.state.name, JSON.stringify(this.state))}}>Save</button>
+            </div>
+            <div className="cell">
               <button onClick={e => {this.setState(JSON.parse(localStorage.getItem(this.state.name)))}}>Load</button>
             </div>
           </div>
@@ -269,7 +271,6 @@ class App extends Component {
       <div className="App">
         {charSheetHeader}
         {this.state.route === '' ? charSheetBody : ''}
-        {this.state.route === 'SkillsDetail' ? (<SkillsDetail />) : ''}
       </div>
     );
   }
