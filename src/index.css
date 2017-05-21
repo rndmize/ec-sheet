@@ -1,0 +1,63 @@
+
+/*	Reset
+------------------------------*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+input {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+}
+
+
+/*	Grid
+------------------------------*/
+
+.row, .row * {
+	box-sizing: border-box;
+}
+
+.row {
+	display: flex;
+	margin: -1em 0 1em -2em;
+	flex-wrap: wrap;
+}
+
+.row > .cell {
+	padding: 1em 0 0 2em;
+}
+
+.cell {
+	flex: 1 1 0%;
+}
+
+.cell.u-1of2, .cell.u-1of3, .cell.u-2of3, .cell.u-1of4, .cell.u-3of4, .cell.u-1of5, .cell.u-1of6 {
+	flex: 0 0 auto;
+}
+
+.cell.u-1of2	{ width: 50%; }
+.cell.u-1of3	{ width: 33.3333%; }
+.cell.u-2of3	{ width: 66.6666%; }
+.cell.u-1of4	{ width: 25%; }
+.cell.u-3of4	{ width: 75%; }
+.cell.u-1of5	{ width: 20%; }
+.cell.u-1of6	{ width: 16.6666%; }
+
+.cell input[type=text], .cell textarea, .cell select {
+	width: 100%;
+}
+
+.cell input[type=checkbox] {
+	vertical-align: baseline;
+}
+
+.cell select {
+	height: 2em;
+	background: linear-gradient(rgba(225,225,225,.15),rgba(0,0,0,.07));
+}

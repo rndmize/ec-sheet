@@ -1,0 +1,92 @@
+.App {
+	margin: 0 auto;
+	width: 960px;
+}
+
+button {
+	width: 100%;
+	height: 2em;
+	font-size: .8em;
+	border: 0;
+	border-radius: 3px;
+	background: #ddd;
+}
+
+button:hover {
+	background: #acf;
+	cursor: pointer;
+}
+
+input[type='number'] {
+	appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+label {
+	width: 100%;
+}
+
+label > span {
+	font-size: .8em;
+	color: #777;
+}
+
+label input {
+	width: 100%;
+	padding: 3px 7px 3px 3px;
+	border: 1px solid #f4f4f4;
+	border-left: 4px solid #ddd;
+	background: #f4f4f4;
+	font-size: 1em;
+}
+
+label input:focus {
+	border-left: 4px solid #acf;
+}
+
+label input[readonly], label input[readonly]:focus {
+	border-left: 4px solid #f4f4f4;	
+}
+
+label input.invalid {
+	border-left: 4px solid #faa;
+}
+
+label input.total {
+	padding-left: 7px;
+	border: 1px solid #ddd;
+	background: #ddd;
+}
+
+.statblock, .row.statblock {
+	margin-top: 1em;
+}
+
+.statblock input {
+	text-align: center;
+}
+
+.bonus.custom {
+	border-left: 4px solid #acf;
+}
+
+.skills label .row {
+	margin-bottom: .5em;
+}
+
+.skills label span {
+	font-size: .7em;
+}
+
+.skills label input {
+	padding: 1px 7px 1px 3px;
+	font-size: .8em;
+}
+
+.unskilled span, .unskilled input {
+	opacity: .5;
+}
